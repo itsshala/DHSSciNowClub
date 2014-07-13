@@ -1,0 +1,22 @@
+/* Body and structure
+-------------------------------------------------- */
+#big-feature {
+	height: 300px;
+	max-width: 100%;
+	padding: 0;
+	bottom: 50px;
+	background-image: url('../img/BigFeatureImage.png');
+	z-index: -999;
+}
+#navigation-area {
+	background-image: url('../img/topMenu.png');
+	background-repeat: repeat-x;
+	max-width: 100%;
+}
+.top-bar {
+	background: none;
+	overflow: visible;
+}
+#big-feature-text {
+	margin-top: 120px;
+}
