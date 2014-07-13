@@ -78,3 +78,13 @@
 #em-feature-text {
 	color: white;
 }
+/* Call Out Area
+-------------------------------------------------- */
+#call-out-area {
+	padding: 10px;
+	max-width: 100%;
+	background-color: #eef1f4;
+}
+#call-out-area img {
+	margin: 10px;
+}
