@@ -1,22 +1,62 @@
 /* Body and structure
 -------------------------------------------------- */
-#big-feature {
-	height: 300px;
-	max-width: 100%;
-	padding: 0;
-	bottom: 50px;
-	background-image: url('../img/BigFeatureImage.png');
-	z-index: -999;
+#em-text {
+	color: #00d0fb;
 }
-#navigation-area {
+#em-text-nav {
+	color: #1761c2;
+}
+/* Navbar
+-------------------------------------------------- */
+#navigation-area {	
 	background-image: url('../img/topMenu.png');
 	background-repeat: repeat-x;
 	max-width: 100%;
+	position: relative;
+	margin-bottom: -100px;
+	z-index: 999;
 }
 .top-bar {
 	background: none;
 	overflow: visible;
 }
+	.top-bar .name h1 a {
+		color: #565d67;
+		text-shadow: 0px 4px 4px rgba(86, 93, 103, 0.25);
+	}
+.top-bar-section ul li {
+	background: none;
+}
+	.top-bar-section li:not(.has-form) a:not(.button) {
+		background: none;
+		color: #565d67;
+		text-shadow: 0px 4px 4px rgba(86, 93, 103, 0.25);
+	}
+		.top-bar-section li:not(.has-form) a:not(.button):hover {
+        background: none; }
+        	.top-bar-section ul li:hover:not(.has-form) > a {
+				color: #00d0fb; 
+			}
+			.top-bar-section .dropdown li:not(.has-form) a:not(.button) {
+        color: black;
+        background: white;
+        opacity: 0.8;}
+/* Big Feature
+-------------------------------------------------- */
+#big-feature {
+	height: 450px;
+	max-width: 100%;
+	background-image: url('../img/BigFeatureImage.png');
+}
+	#big-feature p {
+		color: white;
+	}
 #big-feature-text {
-	margin-top: 120px;
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+	top: 150px;
+}
+#em-feature-text {
+	color: white;
 }
