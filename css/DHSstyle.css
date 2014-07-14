@@ -112,7 +112,18 @@ a {
 #news-events-footer h2 {
 	color: white;
 }
-.list-wrap {
+#events-news-size-left {
 	width: 50%;
-	margin: 0 auto;
+    float:left;
+}
+#events-news-size-right {
+	width: 50%;
+    float:right;
+}
+.divider{
+    position:absolute;
+    left:50%;
+    top:10%;
+    bottom:10%;
+    border-left:1px solid white;
 }
