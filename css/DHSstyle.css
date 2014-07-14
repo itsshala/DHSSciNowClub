@@ -12,6 +12,13 @@
 #feature1 {
 	margin-top: 90px;
 }
+a {
+  color: white;
+  text-decoration: none;
+}
+  a:hover, a:focus {
+    color: #00677c; 
+}
 /* Navbar
 -------------------------------------------------- */
 #navigation-area {	
@@ -93,4 +100,19 @@
 }
 #call-out-area img {
 	margin: 10px;
+}
+/* News and Events Footer
+-------------------------------------------------- */
+#news-events-footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	max-width: 100%;
+	background-color: #00d0fb;
+}
+#news-events-footer h2 {
+	color: white;
+}
+.list-wrap {
+	width: 50%;
+	margin: 0 auto;
 }
