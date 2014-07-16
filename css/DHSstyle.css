@@ -54,6 +54,12 @@ a {
         color: black;
         background: white;
         opacity: 0.8;}
+.top-bar-section .dropdown li label {
+	background: #00d0fb;
+}
+.top-bar-section .dropdown label {
+	color: white;
+}
 /* Big Feature
 -------------------------------------------------- */
 #big-feature {
@@ -120,7 +126,7 @@ a {
 	width: 50%;
     float:right;
 }
-.divider{
+#news-area-divider.divider{
     position:absolute;
     left:50%;
     top:10%;
