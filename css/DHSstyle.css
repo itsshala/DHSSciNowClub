@@ -84,7 +84,7 @@ a {
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 }
-.button.radius {
+#big-fetaure-btn.button.radius {
 	border-radius: 3px;
 	width: 330px;
 }
@@ -126,4 +126,9 @@ a {
     top:10%;
     bottom:10%;
     border-left:1px solid white;
+}
+/* Footer
+-------------------------------------------------- */
+.footer {
+	background-color: #00677c;
 }
