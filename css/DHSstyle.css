@@ -1,5 +1,11 @@
 /* Body and structure
 -------------------------------------------------- */
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+	body p {
+		font-weight: 200;
+	}
 #em-text-bright-blue {
 	color: #00d0fb;
 }
@@ -21,6 +27,9 @@ a {
 }
 /* Navbar
 -------------------------------------------------- */
+ul {
+    list-style: none;
+}
 #navigation-area {	
 	background-image: url('../img/topMenu.png');
 	background-repeat: repeat-x;
@@ -135,12 +144,16 @@ a {
     top:10%;
     bottom:10%;
     border-left:1px solid white;
+    opacity: 0.5;
 }
 /* Footer
 -------------------------------------------------- */
 .footer {
 	background-color: #00677c;
 }
+	.footer p {
+		color: white;
+	}
 #footer-nav {
 list-style: none;
 margin: 0;
