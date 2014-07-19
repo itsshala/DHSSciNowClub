@@ -141,3 +141,19 @@ a {
 .footer {
 	background-color: #00677c;
 }
+#footer-nav {
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+#footer-nav li{
+    display:inline;
+}
+	#footer-nav li:hover > a{
+	color:#00d0fb;
+}
+#footer-nav a{
+    display:inline-block;
+    padding:10px;
+}
