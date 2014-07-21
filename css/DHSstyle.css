@@ -77,7 +77,6 @@ ul {
 #big-feature {
 	height: 450px;
 	max-width: 100%;
-	background-image: url('../img/BigFeatureImage.png');
 }
 	#big-feature p {
 		color: white;
