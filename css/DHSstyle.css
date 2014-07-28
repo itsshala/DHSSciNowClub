@@ -133,6 +133,13 @@ ul {
 #call-out-area img {
 	margin: 10px;
 }
+/* About Image Feature
+-------------------------------------------------- */
+#image-feature {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	max-width: 92%;
+}
 /* News and Events Footer
 -------------------------------------------------- */
 #news-events-footer {
@@ -168,6 +175,14 @@ ul {
 	.footer p {
 		color: white;
 	}
+	.footer img {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+#footerIcons {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
 #footer-nav {
 list-style: none;
 margin: 0;
@@ -184,3 +199,4 @@ text-align: center;
     display:inline-block;
     padding:10px;
 }
+
