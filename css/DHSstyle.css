@@ -140,6 +140,14 @@ ul {
 	margin-bottom: 20px;
 	max-width: 92%;
 }
+/* Get In Touch Form
+-------------------------------------------------- */
+form {
+	margin-top: 40px;
+}
+textarea {
+  height:200px;
+}
 /* News and Events Footer
 -------------------------------------------------- */
 #news-events-footer {
