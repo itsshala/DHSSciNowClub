@@ -31,7 +31,9 @@ ul {
     list-style: none;
 }
 #navigation-area {	
-	background-image: url('../img/topMenu.png');
+	/*background-image: url('../img/topMenu.png');*/
+	background-color: white;
+	opacity: .8;
 	background-repeat: repeat-x;
 	max-width: 100%;
 	position: relative;
