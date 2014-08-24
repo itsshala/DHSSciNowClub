@@ -209,8 +209,12 @@ text-align: center;
     padding:10px;
 }
 .footer-2 {
-	background-color: 3#33333;
+	background-color: #333333;
 }
 	.footer-2 p {
 		color: white;
+	}
+	.footer-2 a {
+		color: white;
+		text-decoration: none;
 	}
