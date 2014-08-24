@@ -19,7 +19,6 @@ body {
 	margin-top: 90px;
 }
 a {
-	color: white;
 	text-decoration: none;
 }
   a:hover, a:focus {
@@ -161,6 +160,10 @@ textarea {
 #news-events-footer h2 {
 	color: white;
 }
+#news-events-footer a {
+	color: white;
+	text-decoration: none;
+}
 #events-news-size-left {
 	width: 50%;
     float:left;
@@ -219,3 +222,20 @@ text-align: center;
 		color: white;
 		text-decoration: none;
 	}
+/* Sticky-Footer
+-------------------------------------------------- */	
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer-2, .push {
+height: 4em;
+}
