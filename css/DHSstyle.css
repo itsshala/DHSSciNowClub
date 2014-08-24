@@ -209,4 +209,9 @@ text-align: center;
     display:inline-block;
     padding:10px;
 }
-
+.footer-2 {
+	background-color: 3#33333;
+}
+	.footer-2 p {
+		color: white;
+	}
