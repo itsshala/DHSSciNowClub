@@ -1,8 +1,8 @@
 <div class="post">
     <h2 class="title"><a href="[[~[[+id]]]]">[[+pagetitle]]</a></h2>
-    [[+tv.articlestags:notempty=` | <span class="tags">[[%articles.tags]]: [[!tolinks? &items=`[[+tv.articlestags]]` &target=`[[*id]]` &useTagsFurl=`1`]]</span>`]]</p>
+    <p class="post-info">[[+tv.articlestags:notempty=`<span class="tags">[[%articles.tags]]: [[!tolinks? &items=`[[+tv.articlestags]]` &target=`[[*id]]` &useTagsFurl=`1`]]</span>`]]</p>
     <div class="entry">
-	    <p>[[+content:ellipsis=`250`]]</p>
+	    <p>[[+content:ellipsis=`250`:strip_tags=`<br/>`]]<a href="[[~[[+id]]]]" class="readmore">[[%articles.read_more]]</a></p>
     </div>
     <p class="postmeta">
       <span class="links">
