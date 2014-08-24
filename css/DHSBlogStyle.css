@@ -1,0 +1,216 @@
+/* Body and structure
+-------------------------------------------------- */
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+	body p {
+		font-weight: 200;
+	}
+#em-text-bright-blue {
+	color: #00d0fb;
+}
+#em-text-dark-blue {
+	color: #1761c2;
+}
+#em-text-black {
+	color: #565d67;
+}
+#feature1 {
+	margin-top: 90px;
+}
+a {
+  text-decoration: none;
+}
+  a:hover, a:focus {
+    color: #00677c; 
+}
+/* Navbar
+-------------------------------------------------- */
+ul {
+    list-style: none;
+}
+#navigation-area {	
+	/*background-image: url('../img/topMenu.png');*/
+	background-color: white;
+	opacity: .8;
+	background-repeat: repeat-x;
+	max-width: 100%;
+	position: relative;
+	margin-bottom: -100px;
+	z-index: 999;
+}
+.top-bar {
+	background: none;
+	overflow: visible;
+}
+	.top-bar .name h1 a {
+		color: #565d67;
+		text-shadow: 0px 4px 4px rgba(86, 93, 103, 0.25);
+	}
+.top-bar-section ul li {
+	background: none;
+}
+	.top-bar-section li:not(.has-form) a:not(.button) {
+		background: none;
+		color: #565d67;
+		text-shadow: 0px 4px 4px rgba(86, 93, 103, 0.25);
+	}
+		.top-bar-section li:not(.has-form) a:not(.button):hover {
+        background: none; }
+        	.top-bar-section ul li:hover:not(.has-form) > a {
+				color: #00d0fb; 
+			}
+			.top-bar-section .dropdown li:not(.has-form) a:not(.button) {
+        color: black;
+        background: white;
+        opacity: 0.8;}
+.top-bar-section .dropdown li label {
+	background: #00d0fb;
+}
+.top-bar-section .dropdown label {
+	color: white;
+}
+.top-bar-section .has-dropdown > a:after {
+    border-color: #565d67 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+/* Big Feature
+-------------------------------------------------- */
+#big-feature {
+	height: 450px;
+	max-width: 100%;
+}
+	#big-feature p {
+		color: white;
+	}
+#big-feature-text {
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+	top: 150px;
+	text-shadow: 0px 4px 4px rgba(86, 93, 103, 0.25);
+}
+#big-feature-button {
+	margin: 0 auto;
+	display: block;
+	width: 350px;
+	height: 70px;
+	position: relative;
+	top: 150px;
+	border-width: 15px;
+	border-radius: 3px;
+	border: 10px solid rgba(255, 255, 255, .2);
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+}
+#big-fetaure-btn.button.radius {
+	border-radius: 3px;
+	width: 330px;
+}
+#em-feature-text {
+	color: white;
+}
+/* Page Title Section
+-------------------------------------------------- */
+#page-title-section {
+	height: 165px;
+	max-width: 100%;
+	background-image: url('../img/pageTitleBG.png')
+}
+	#page-title-section h2 {
+		color: white;
+	}
+#page-title-section-text {
+	position: relative;
+	top: 100px;
+	text-shadow: 0px 4px 4px rgba(86, 93, 103, 0.25);
+}
+/* Call Out Area
+-------------------------------------------------- */
+#call-out-area {
+	padding: 10px;
+	max-width: 100%;
+	background-color: #eef1f4;
+}
+#call-out-area img {
+	margin: 10px;
+}
+/* About Image Feature
+-------------------------------------------------- */
+#image-feature {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/*max-width: 92%;*/
+}
+/* Get In Touch Form
+-------------------------------------------------- */
+form {
+	margin-top: 40px;
+}
+textarea {
+  height:200px;
+}
+/* News and Events Footer
+-------------------------------------------------- */
+#news-events-footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	max-width: 100%;
+	background-color: #00d0fb;
+}
+#news-events-footer h2 {
+	color: white;
+}
+#events-news-size-left {
+	width: 50%;
+    float:left;
+}
+#events-news-size-right {
+	width: 50%;
+    float:right;
+}
+#news-area-divider.divider{
+    position:absolute;
+    left:50%;
+    top:10%;
+    bottom:10%;
+    border-left:1px solid white;
+    opacity: 0.5;
+}
+/* Footer
+-------------------------------------------------- */
+.footer {
+	background-color: #00677c;
+}
+	.footer p {
+		color: white;
+	}
+	.footer img {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+#footerIcons {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+#footer-nav {
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+#footer-nav li{
+    display:inline;
+}
+	#footer-nav li:hover > a{
+	color:#00d0fb;
+}
+#footer-nav a{
+    display:inline-block;
+    padding:10px;
+}
+.footer-2 {
+	background-color: 3#33333;
+}
+	.footer-2 p {
+		color: white;
+	}
