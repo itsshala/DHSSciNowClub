@@ -1,0 +1,25 @@
+<div style="float: right">
+<h2>Galleries</h2>
+<ul>
+[[!GalleryAlbums]]
+</ul>
+</div>
+ 
+<h2>Item</h2>
+ 
+[[!GalleryItem]]
+[[!+galitem.image:notempty=`
+<div class="image">
+  <a href="[[+galitem.image]]"><img class="[[+galitem.imgCls]]" src="[[+galitem.image]]" alt="[[+galitem.name]]" /></a>
+  <br />Albums: [[+galitem.albums]]
+  <br />Tags: [[+galitem.tags]]
+</div>
+`]]
+ 
+<hr />
+ 
+[[!Gallery? &album=`1` &toPlaceholder=`gallery`]]
+<h1><a href="[[~[[*id]] &galAlbum=`[[+gallery.id]]`]]">[[+gallery.name]]</a></h1>
+<p>[[+gallery.description]]</p>
+ 
+[[+gallery]]

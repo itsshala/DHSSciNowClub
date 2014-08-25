@@ -135,6 +135,11 @@ ul {
 #call-out-area img {
 	margin: 10px;
 }
+iframe {
+	width: 100%;
+	margin-top: 10px;
+	height: 225px;
+}
 /* About Image Feature
 -------------------------------------------------- */
 #image-feature {
