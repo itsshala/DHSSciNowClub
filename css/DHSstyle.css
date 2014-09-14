@@ -147,6 +147,15 @@ iframe {
 	margin-bottom: 20px;
 	/*max-width: 92%;*/
 }
+/* Gallery
+-------------------------------------------------- */
+#album-title h4{
+	color: #565d67;
+}
+#album-title img{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
 /* Get In Touch Form
 -------------------------------------------------- */
 form {

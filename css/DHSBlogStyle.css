@@ -141,6 +141,15 @@ ul {
 	margin-bottom: 20px;
 	/*max-width: 92%;*/
 }
+/* Gallery Page
+-------------------------------------------------- */
+#album-title {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+	#album-title h4{
+		color: #565d67;
+	}
 /* Get In Touch Form
 -------------------------------------------------- */
 form {
