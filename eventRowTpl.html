@@ -3,9 +3,10 @@
     <p class="post-info">
     	<span class="links">
         [[+comments:notempty=`<a href="[[~[[+id]]]]#comments" class="comments">[[%articles.comments]] ([[!QuipCount? &thread=`article-b[[+parent]]-[[+id]]`]])</a> |`]]
-        <span class="date">[[+publishedon:strtotime:date=`%b %d, %Y`]]</span>
-      </span>
-    	[[+tv.articlestags:notempty=` | <span class="tags">[[%articles.tags]]: [[!tolinks? &items=`[[+tv.articlestags]]` &target=`[[*id]]` &useTagsFurl=`1`]]</span>`]]</p>
+        <span class="date">
+            [[+introtext]]
+        </span>
+    </p>
     <div class="entry">
 	    <p>[[+content:ellipsis=`250`:strip_tags=`<br/>`]]<a href="[[~[[+id]]]]" class="readmore">[[%articles.read_more]]</a></p>
     </div>
