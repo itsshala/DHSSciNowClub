@@ -1,17 +1,29 @@
+[[!FormIt?
+   &hooks=`spam,email,redirect`
+   &emailTpl=`MyEmailChunk`
+   &emailTo=`shala@itsshala.com`
+   &redirectTo=`1`
+]]
+[[!+fi.validation_error_message:notempty=`<p>[[!+fi.validation_error_message]]</p>`]]
+<form action="[[~[[*id]]]]" method="post" class="form">
+    <input type="hidden" name="nospam:blank" value="[[+fi.nospam]]" />
 <div class="row">
     <div class="large-12 columns">
   <form>
     <div class="large-6 columns">
       <label>
-        <input type="text" placeholder="Your Name" />
+        <input type="text" name="name" placeholder="Your Name" value="[[!+fi.name]]" />
+        <span class="error">[[!+fi.error.name]]</span>
       </label>
    
       <label>
-        <input type="text" placeholder="Your Email" />
+        <input type="text" name="email" placeholder="Your Email" value="[[!+fi.email]]" />
+        <span class="error">[[!+fi.error.email]]</span>
       </label>
     
       <label>
-        <textarea placeholder="Your Message"></textarea>
+        <textarea name="text" placeholder="Your Message" value="[[!+fi.text]]">[[!+fi.text]]</textarea>
+        <span class="error">[[!+fi.error.text]]</span>
       </label>
        <button type="submit" class="button radius">Submit</button>
     </div>
