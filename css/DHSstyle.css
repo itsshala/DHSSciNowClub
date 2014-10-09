@@ -6,6 +6,9 @@ body {
 	body p {
 		font-weight: 200;
 	}
+#basic-page{
+	margin-top: 90px;
+}
 #em-text-bright-blue {
 	color: #00d0fb;
 }

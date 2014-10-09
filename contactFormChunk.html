@@ -2,28 +2,25 @@
    &hooks=`spam,email,redirect`
    &emailTpl=`MyEmailChunk`
    &emailTo=`shala@itsshala.com`
-   &redirectTo=`1`
+   &redirectTo=`20`
 ]]
 [[!+fi.validation_error_message:notempty=`<p>[[!+fi.validation_error_message]]</p>`]]
 <form action="[[~[[*id]]]]" method="post" class="form">
     <input type="hidden" name="nospam:blank" value="[[+fi.nospam]]" />
 <div class="row">
     <div class="large-12 columns">
-  <form>
+  <form data-abide>
     <div class="large-6 columns">
       <label>
-        <input type="text" name="name" placeholder="Your Name" value="[[!+fi.name]]" />
-        <span class="error">[[!+fi.error.name]]</span>
+        <input type="text" required name="name" placeholder="Your Name" value="[[!+fi.name]]" />
       </label>
-   
+      
       <label>
-        <input type="text" name="email" placeholder="Your Email" value="[[!+fi.email]]" />
-        <span class="error">[[!+fi.error.email]]</span>
+        <input type="email" required name="email" placeholder="Your Email" value="[[!+fi.email]]" />
       </label>
     
       <label>
-        <textarea name="text" placeholder="Your Message" value="[[!+fi.text]]">[[!+fi.text]]</textarea>
-        <span class="error">[[!+fi.error.text]]</span>
+        <textarea required name="text" placeholder="Your Message" value="[[!+fi.text]]">[[!+fi.text]]</textarea>
       </label>
        <button type="submit" class="button radius">Submit</button>
     </div>
